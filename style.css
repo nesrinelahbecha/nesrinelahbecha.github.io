@@ -1,0 +1,95 @@
+:root {
+    --nabeul-blue: #005596;
+    --terracotta: #e26a45;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #f7f6f6;
+}
+
+.is-nabeul-nav {
+    background-color: var(--nabeul-blue) !important;
+}
+
+.navbar-item {
+    font-weight: 800 !important;
+    color: rgb(241, 241, 244) !important;
+}
+
+.navbar.is-fixed-top {
+    background-color: #2a90dd !important;
+}
+
+.navbar-item.logo {
+    color: white !important; 
+    font-weight: 800;
+    background: linear-gradient(to right, white 0%, white 65%, #b95334 65%, #c85b3a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.navbar-end .navbar-item {
+    color: white !important;
+}
+.modern-bg {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=2070&auto=format&fit=crop');
+    
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 80vh;            
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.main-title {
+    font-family: 'Playfair Display', serif;
+    color: rgb(243, 242, 242) !important;
+    font-size: 4.5rem !important;
+    font-weight: 900;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.6);
+}
+
+.subtitle-hero {
+    color: rgb(242, 241, 241);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+.button.is-nabeul {
+    background-color: var(--terracotta);
+    color: rgb(245, 243, 243);
+    font-weight: 700;
+    border: none;
+    padding: 25px 50px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.button.is-nabeul:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: var(--nabeul-blue);
+}
+
+
+.footer {
+    padding: 3rem;
+    background-color: #f2eeee;
+}
+
+.contact-link {
+    color: var(--nabeul-blue);
+    font-weight: 800;
+    text-decoration: underline;
+}

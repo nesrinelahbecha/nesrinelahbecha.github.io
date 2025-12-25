@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique | Nabeul Art</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar is-fixed-top">
+        <div class="container">
+            <div class="navbar-brand"><a class="navbar-item logo" href="index.html">NABEUL ART</a></div>
+            <div class="navbar-end"><div class="navbar-item"><span class="tag is-info is-medium">🛒 Panier : <span id="count" class="ml-1">0</span></span></div></div>
+        </div>
+    </nav>
+
+    <section class="section mt-6">
+        <div class="container">
+            <h1 class="title is-2 has-text-centered mb-6">Collection Nabeul Art</h1>
+            <div class="columns is-multiline">
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie1.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 1</p><p class="price">25 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie2.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 2</p><p class="price">55 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie3.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 3</p><p class="price">85 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie4.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 4</p><p class="price">15 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie5.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 5</p><p class="price">110 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie6.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 6</p><p class="price">180 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie7.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 7</p><p class="price">75 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie8.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 8</p><p class="price">225 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie9.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 9</p><p class="price">100 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie10.jpeg"></figure></div><div class="card-content"><p class="title is-5">Produit 10</p><p class="price">50 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie11.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 11</p><p class="price">35 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+                <div class="column is-4"><div class="card project-card"><div class="card-image"><figure class="image is-4by3"><img src="image/poterie12.jpg"></figure></div><div class="card-content"><p class="title is-5">Produit 12</p><p class="price">66 DT</p><button class="button is-nabeul is-fullwidth mt-3" onclick="add()">Ajouter</button></div></div></div>
+            </div>
+        </div>
+    </section>
+    <script>let c = 0; function add() { c++; document.getElementById('count').innerText = c; }</script>
+</body>
+</html>
